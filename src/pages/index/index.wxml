@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="usermotto">
+    <text class="money-num" animation = "{{numAnimation}}">{{moneyNum}}</text>
+    <text class="user-motto">{{suffixStr}}</text>
+  </view>
+  <view class="datetime">
+    <text class="date-time" animation = "{{numAnimation}}">{{date}}</text>
+  </view>
+</view>
